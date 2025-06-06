@@ -1,0 +1,23 @@
+.tombol{
+    display: flex;
+    justify-content: center;
+}
+
+#tombol-download{
+    border: 1px solid;
+    text-decoration: none;
+    text-align: center;
+    padding: 9px 15px;
+    border-radius: 15px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+#tombol-download:hover{
+    background-color: red;
+}
+
+#tombol-download:active{
+    background-color: lightblue;
+}

@@ -1,0 +1,186 @@
+/* Creator : Kasyfi Amalul Ramdhoni */
+
+/* Bagian 1 */
+.bagian1{
+    /* border: 1px solid; */
+    background-color: rgba(254,252,255,255);
+    height: 500px;
+    background-image: url("style/pizza4.jpg");
+    background-position: center 170px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 15px;
+}
+
+.atas{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid; */
+}
+
+#namaumkm{
+    width: 100px;
+    margin: 15px 10px 10px;
+}
+
+#Home, #Menu, #Pesan{
+    font-family: Arial;
+    color: black;
+    margin: 17px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+a#Pesan{
+    background-color: black;
+    color: white;
+    padding: 7px 13px;
+    border-radius: 17px;
+}
+
+.bawah{
+    text-align: center;
+    /* border: 1px solid; */
+    font-family: Tahoma;
+}
+
+#tagline{
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 17px;
+}
+
+#singkat{
+    font-size: 15px;
+    width: 500px;
+    display: block;
+    margin: auto;
+    padding-top: 0px;
+}
+
+
+/* Bagian 2 */
+.bagian2{
+    /* border: 1px solid; */
+    padding-top: 10px;
+    padding-bottom: 47px;
+    height: auto;
+    background-color: rgb(255, 228, 198);
+    border-radius: 15px;
+}
+
+.info1, .info4{
+    font-family: Helvetica;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.info1 h3, .info4 h3{
+    font-size: 26px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.info2, .info5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pizza46{
+    background-color: white;
+    font-family: Tahoma;
+    /* border: 1px solid; */
+    margin: 20px;
+    padding: 10px 10px 17px;
+    width: 300px;
+    text-align: justify;
+    border-radius: 15px;
+}
+
+#g46{
+    height: 300px;
+    margin: 0px;
+}
+
+.pizza46 p{
+    margin-bottom: 27px;
+}
+
+#pesan-pizza{
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    margin-left: 1px;
+    border-radius: 13px;
+}
+
+.info3{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.info3 a{
+    font-family: tahoma;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    /* width: fit-content; */
+    /* margin: auto; */
+    /* text-align: center; */
+    padding: 11px;
+    border-radius: 17px;
+    text-decoration: none;
+}
+
+.info4{
+    margin-top: 80px;
+}
+
+/* Bagian 3 */
+.bagian3{
+    border: 1px solid;
+    height: 200px;
+    background-color: black;
+    border-radius: 15px;
+}
+
+#pemesanan{
+    color: white;
+    text-align: center;
+    font-family: tahoma;
+    font-size: 23px;
+    padding-top: 0px;
+}
+
+.logo{
+    margin-top: 0px;
+    padding-top: opx;
+    display: flex;
+    justify-content: center;
+}
+
+#logoig{
+    height: 50px;
+    margin-left: 10px;
+}
+#logowa{
+    height: 50px;
+    margin-right: 10px;
+}
+
+div.credit p{
+    color: goldenrod;
+    text-align: center;
+    font-family: verdana;
+    font-size: 10px;
+    margin-top: 40px;
+}
+
+/* Universal */
+html {
+    scroll-behavior: smooth;
+}
